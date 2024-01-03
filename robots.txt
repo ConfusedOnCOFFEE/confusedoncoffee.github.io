@@ -1,0 +1,4 @@
+User-agent: zola
+Disallow:
+Allow: /
+Sitemap: https://confusedoncoffee.github.io/sitemap.xml

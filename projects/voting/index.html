@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta http-equiv="content-type" content="text/html; charset=utf-8">
+
+      <!-- Enable responsiveness on mobile devices-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+      
+    
+
+      <title>Confused On Coffe Projects</title>
+
+      
+
+      
+          <link rel="stylesheet" href="https://confusedoncoffee.github.io/site.css">
+      
+
+      
+      
+    </head>
+
+    <body class="hack dark main container">
+        
+
+
+        
+                
+                    <header>
+                        <nav itemscope itemtype="http://schema.org/SiteNavigationElement">
+                        
+                            <a itemprop="url"
+                               class=""
+                               href="https://confusedoncoffee.github.io">
+                                <span itemprop="name">Home</span></a>
+                        
+                            <a itemprop="url"
+                               class=""
+                               href="https://confusedoncoffee.github.io/categories">
+                                <span itemprop="name">Categories</span></a>
+                        
+                            <a itemprop="url"
+                               class=""
+                               href="https://confusedoncoffee.github.io/tags">
+                                <span itemprop="name">Tags</span></a>
+                        
+                            <a itemprop="url"
+                               class=""
+                               href="https://b.confusedon.coffee">
+                                <span itemprop="name">Blog</span></a>
+                        
+                            <a itemprop="url"
+                               class=""
+                               href="https://github.com/ConfusedOnCOFFEE">
+                                <span itemprop="name">Github</span></a>
+                        
+                        </nav>
+                    </header>
+                
+            
+    
+
+<h1>Voting</h1>
+<p><strong><a href="https://git.confusedoncoffee.com/confusedoncoffee/voters-verdict">GIT REPOS</a></strong></p>
+<h1 id="voting-0-2">Voting 0.2</h1>
+<p>User can select on a range of dropdowns on a specific category. In this case we are voting on a christmas.
+In the end, he can expect his own result and can compare against different voters.</p>
+<p><strong>Screenhots</strong></p>
+<h3 id="user">User</h3>
+<ul>
+<li>
+<p>Seeing all available votings and input the invite_code</p>
+<img alt="user-available-votings" src="landing-with-votes.png" width="100%"/>
+</li>
+<li>
+<p>Dropdowns on an christmas example</p>
+<img alt="user-dropdown-christmas-vote" src="voting.png" width="100%"/>
+</li>
+<li>
+<p>User Result with sum and score. There are different tables and filters to get most out of the data.</p>
+<img alt="user-christmas-vote-result"  src="voting-result-overall.png" width="100%"/>
+</li>
+<li>
+<p>Already available filtered votes are shown below</p>
+<img alt="user-christmas-vote-result"  src="voting-with-ongoing-stats.png" width="100%"/>
+</li>
+</ul>
+<h3 id="admin">Admin</h3>
+<ul>
+<li>
+<p>Add user  (A user is a voter or candidates) All user can vote if they have an invite_code and criterias</p>
+<img alt="admin-add-user-panel" src="admin-panel.png"  width="100%"/>
+</li>
+<li>
+<p>Color selection for his own voting with preview section. Checkbox the criterias and candidates, which are available for the vote.</p>
+<img alt="admin-add-color" src="admin-create-voting.png" width="100%"/>
+<img alt="admin-add-critera-and-candidates" src="admin-create-voting-with-selction.png" width="100%"/>
+</li>
+<li>
+<p>Closing votes and accessing the created invite code in case you forgot</p>
+<img alt="admin-manage-current-votings" src="admin-manage-voting.png" width="100%"/>
+</li>
+<li>
+<p>Modify available categories and available candidates to vote on</p>
+<img alt="admin-manage-current-votings" src="admin-modify-voting.png" width="100%"/>
+</li>
+</ul>
+<h1 id="voting-0-1">Voting 0.1</h1>
+<p><strong>Screenhots</strong></p>
+<h3 id="user-1">User</h3>
+<ul>
+<li>
+<p>Seeing all available votings and input the invite_code</p>
+<img alt="user-available-votings" src="voting-2_0-all-votings.png" width="100%"/>
+</li>
+<li>
+<p>Dropdowns on an christmas example</p>
+<img alt="user-dropdown-christmas-vote" src="voting-2_0-christmas_voting_part1.png" width="100%"/>
+</li>
+<li>
+<p>User Result with sum and score. There are different tables and filters to get most out of the data.</p>
+<img alt="user-christmas-vote-result"  src="voting-2_0-christmas_voting_part2.png" width="100%"/>
+</li>
+</ul>
+<h3 id="admin-1">Admin</h3>
+<ul>
+<li>
+<p>Add user (A user is a voter or candidates) All user can vote if they have an invite_code</p>
+<img alt="admin-add-user-panel" src="voting-2_0-admin_user.png"  width="100%"/>
+</li>
+<li>
+<p>Add criteria</p>
+<img alt="admin-add-criteria-panel" src="voting-2_0-admin_criteria.png" width="100%"/>
+</li>
+<li>
+<p>Color selection for his own voting with preview section</p>
+<img alt="admin-add-color" src="voting-2_0-admin_voting_color.png" width="100%"/>
+</li>
+<li>
+<p>Checkbox the criterias and candidates, which are available for the vote.</p>
+<img alt="admin-add-critera-and-candidates" src="voting-2_0-admin_voting_cr_ca.png" width="100%"/>
+</li>
+<li>
+<p>Setting an end date and an invite code</p>
+<img alt="admin-add-voting-ooptions" src="voting-2_0-admin_voting_options.png" width="100%"/>
+</li>
+<li>
+<p>Closing votes and accessing the created invite code in case you forgot</p>
+<img alt="admin-manage-current-votings" src="voting-2_0-admin_voting_close.png" width="100%"/>
+</li>
+</ul>
+<h1 id="stack">Stack</h1>
+<ul>
+<li>Using tera as template engine to generate the HTML.</li>
+<li>Vanilla JS and CSS, which is provided via rocket FileServer.</li>
+<li>Using rocket to handle requests, serve responses.</li>
+<li>Using tokio to read and write into files.</li>
+<li>Using sqlx to read and write into sqlite database.</li>
+</ul>
+<h1 id="languages">Languages</h1>
+<ul>
+<li>BE: Rust Rocket server (rust-version = &quot;1.71&quot;, edition = &quot;2021&quot;)
+<ul>
+<li><a href="https://rocket.rs/">Rocket</a></li>
+<li><a href="https://keats.github.io/tera/">Tera</a></li>
+</ul>
+</li>
+<li>FE: 
+<ul>
+<li>VanillaJS wih <a href="https://rxjs.dev/">rxjs</a></li>
+<li>CSS</li>
+<li>HTML generated by the BE via tera</li>
+</ul>
+</li>
+</ul>
+<p>Rust Cargo toml:</p>
+<pre data-lang="toml" style="background-color:#212121;color:#eeffff;" class="language-toml "><code class="language-toml" data-lang="toml"><span style="color:#89ddff;">[dependencies]
+</span><span style="color:#f07178;">rocket </span><span style="color:#89ddff;">= { </span><span style="color:#f07178;">version </span><span style="color:#89ddff;">= &quot;</span><span style="color:#c3e88d;">0.5.0</span><span style="color:#89ddff;">&quot;, </span><span style="color:#f07178;">features </span><span style="color:#89ddff;">= [ &quot;</span><span style="color:#c3e88d;">json</span><span style="color:#89ddff;">&quot;] }
+</span><span style="color:#f07178;">tokio </span><span style="color:#89ddff;">= { </span><span style="color:#f07178;">version </span><span style="color:#89ddff;">= &quot;</span><span style="color:#c3e88d;">1.31.0</span><span style="color:#89ddff;">&quot; , </span><span style="color:#f07178;">features </span><span style="color:#89ddff;">= [ &quot;</span><span style="color:#c3e88d;">fs</span><span style="color:#89ddff;">&quot; ] }
+</span><span style="color:#f07178;">reqwest </span><span style="color:#89ddff;">= { </span><span style="color:#f07178;">version </span><span style="color:#89ddff;">= &quot;</span><span style="color:#c3e88d;">0.11</span><span style="color:#89ddff;">&quot;, </span><span style="color:#f07178;">features </span><span style="color:#89ddff;">= [ &quot;</span><span style="color:#c3e88d;">json</span><span style="color:#89ddff;">&quot; ] }
+</span><span style="color:#f07178;">chrono </span><span style="color:#89ddff;">= { </span><span style="color:#f07178;">version </span><span style="color:#89ddff;">= &quot;</span><span style="color:#c3e88d;">0.4.25</span><span style="color:#89ddff;">&quot;, </span><span style="color:#f07178;">features </span><span style="color:#89ddff;">= [ &quot;</span><span style="color:#c3e88d;">serde</span><span style="color:#89ddff;">&quot; ] }
+</span><span style="color:#f07178;">tracing </span><span style="color:#89ddff;">= &quot;</span><span style="color:#c3e88d;">0.1.40</span><span style="color:#89ddff;">&quot;
+</span><span style="color:#f07178;">tracing-subscriber </span><span style="color:#89ddff;">= &quot;</span><span style="color:#c3e88d;">0.3.0</span><span style="color:#89ddff;">&quot;
+</span><span style="color:#f07178;">regex </span><span style="color:#89ddff;">= &quot;</span><span style="color:#c3e88d;">1.10.2</span><span style="color:#89ddff;">&quot;
+</span><span style="color:#f07178;">diesel </span><span style="color:#89ddff;">= { </span><span style="color:#f07178;">version </span><span style="color:#89ddff;">= &quot;</span><span style="color:#c3e88d;">2</span><span style="color:#89ddff;">&quot;, </span><span style="color:#f07178;">optional </span><span style="color:#89ddff;">= </span><span style="color:#f78c6c;">true </span><span style="color:#89ddff;">}
+</span><span style="color:#f07178;">diesel_migrations </span><span style="color:#89ddff;">= { </span><span style="color:#f07178;">version </span><span style="color:#89ddff;">= &quot;</span><span style="color:#c3e88d;">2</span><span style="color:#89ddff;">&quot;, </span><span style="color:#f07178;">optional </span><span style="color:#89ddff;">= </span><span style="color:#f78c6c;">true</span><span style="color:#89ddff;">}
+</span><span style="font-style:italic;color:#4a4a4a;"># log = &quot;0.4.20&quot; # used in rocket
+</span><span style="font-style:italic;color:#4a4a4a;"># async_trait # used async_tarit
+</span><span style="color:#f07178;">env_logger </span><span style="color:#89ddff;">= &quot;</span><span style="color:#c3e88d;">0.10.1</span><span style="color:#89ddff;">&quot; </span><span style="font-style:italic;color:#4a4a4a;"># binaries
+</span><span style="color:#f07178;">futures </span><span style="color:#89ddff;">= { </span><span style="color:#f07178;">version </span><span style="color:#89ddff;">= &quot;</span><span style="color:#c3e88d;">0.3.29</span><span style="color:#89ddff;">&quot; }
+</span><span style="color:#f07178;">rocket_dyn_templates </span><span style="color:#89ddff;">= { </span><span style="color:#f07178;">version </span><span style="color:#89ddff;">= &quot;</span><span style="color:#c3e88d;">0.1.0</span><span style="color:#89ddff;">&quot;, </span><span style="color:#f07178;">features </span><span style="color:#89ddff;">= [&quot;</span><span style="color:#c3e88d;">tera</span><span style="color:#89ddff;">&quot;], </span><span style="color:#f07178;">optional </span><span style="color:#89ddff;">= </span><span style="color:#f78c6c;">true </span><span style="color:#89ddff;">}
+</span><span style="color:#f07178;">sqlx </span><span style="color:#89ddff;">= { </span><span style="color:#f07178;">version </span><span style="color:#89ddff;">= &quot;</span><span style="color:#c3e88d;">0.7.3</span><span style="color:#89ddff;">&quot;, </span><span style="color:#f07178;">optional </span><span style="color:#89ddff;">= </span><span style="color:#f78c6c;">true </span><span style="color:#89ddff;">}
+</span><span style="color:#89ddff;">[dependencies.rocket_sync_db_pools]
+</span><span style="color:#f07178;">version </span><span style="color:#89ddff;">= &quot;</span><span style="color:#c3e88d;">0.1.0</span><span style="color:#89ddff;">&quot;
+</span><span style="color:#f07178;">features </span><span style="color:#89ddff;">= [&quot;</span><span style="color:#c3e88d;">diesel_sqlite_pool</span><span style="color:#89ddff;">&quot;]
+</span><span style="color:#f07178;">optional </span><span style="color:#89ddff;">= </span><span style="color:#f78c6c;">true
+</span><span style="color:#89ddff;">[dependencies.rocket_db_pools]
+</span><span style="color:#f07178;">version </span><span style="color:#89ddff;">= &quot;</span><span style="color:#c3e88d;">0.1.0</span><span style="color:#89ddff;">&quot;
+</span><span style="color:#f07178;">features </span><span style="color:#89ddff;">= [&quot;</span><span style="color:#c3e88d;">sqlx_sqlite</span><span style="color:#89ddff;">&quot;]
+</span><span style="color:#f07178;">optional </span><span style="color:#89ddff;">= </span><span style="color:#f78c6c;">true
+</span></code></pre>
+
+
+    </body>
+
+</html>
